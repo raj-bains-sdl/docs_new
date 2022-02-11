@@ -1,0 +1,12 @@
+/public
+resources/
+node_modules/
+package-lock.json
+.hugo_build.lock
+
+# system files
+.DS_Store
+
+# IDE files
+.idea
+.vscode
