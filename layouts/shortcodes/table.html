@@ -1,0 +1,6 @@
+{{ $hasCaption := true }}
+{{ $caption    := .Get "caption" }}
+{{ $captionEl  := printf "<table><caption>%s</caption>" $caption }}
+{{ $table      := .Inner | markdownify }}
+{{ $html       := cond $hasCaption ($table | replaceRE "<table>" $captionEl) $table | safeHTML }}
+{{ $html }}

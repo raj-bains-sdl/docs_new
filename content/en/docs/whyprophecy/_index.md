@@ -7,9 +7,7 @@ description: >
 ---
 
 
-Prophecy is designed to enable all users to be productive with data engineering. It also replaces legacy ETL products.
-
-Following are the primary pillars of Prophecy
+Prophecy is designed to enable all users to be productive with data engineering. It also replaces legacy ETL products. Following are the primary pillars of Prophecy
 
 ## Visual Interface 
 
@@ -31,21 +29,6 @@ These provide the following benefits:
 * **Zero lock-in:** Prophecy generated code is in 100% open-source format with data pipelines in Apache Spark format and schedules in Apache Airflow format. This ensures freedom from lock-in and cost management.
 * **Git versioning for time travel:** Given that data projects including metadata are stored together on git, the user can traverse across time, and for example see how a value is computed today, and compare it with how it was computed a month earlier to understand why a breakage has occurred.
 
-
-## Extensibility
-
-Standardization is essential to scale but the scope of Data Engineering has increased quite beyond what traditional ETL or data integration products provide. It is no longer acceptable to only have a limited palette of visual components, where users get stuck if something does not fit the paradigm.
-
-Prophecy provides extensibility via templates - not as an afterthought - but as the concept at the heart of our architecture. Prophecy provides a set of inbuilt visual operators - such as Spark standard library, and Delta lake library. New visual operators are defined by our customers - usually the data platform teams develop standards for their organizations. This includes custom connectors, and transforms such as an encryption library. Customers also ask us to develop new operators as they need them and we're happy to add new libraries as requested.
-
-### Gems
-
-Prophecy enables you to construct data pipelines from standard visual blocks (like Lego pieces), that we call gems. The gems require the users to be able to write Spark code and our customers often rely on Prophecy to help out. Gems include Spark code, properties that are blanks to be filled by the user from UI, and a function to describe the visual layout of the gem.
-
-In the gem builder UI, the left half is where you write the template code for the gem. The top right has a functional UI generated in real time from the template code. You can fill business logic values into this generated UI, and you can immediately see the generated code at the bottom right. You can run this generated code against input data and see the results to ensure everything is working well.
-
-{{< figure src="/images/whyprophecy/gem-builder.png" width="75%" align="center">}}
-
 ## Complete Product
 
 In the cloud, data engineering only has point products forcing the customer data platform teams to stitch together custom solutions. However, this means that development, deployment and metadata is spread across multiple systems - this is not sustainable over the medium term.
@@ -59,10 +42,23 @@ Prophecy instead chooses to provide a complete product:
 
 {{< figure src="/images/whyprophecy/complete.png" width="75%" align="center">}}
 
-## Where should I go next?
+## Extensibility
 
-Give your users next steps from the Overview. For example:
+Standardization is essential to scale but the scope of Data Engineering has increased quite beyond what traditional ETL or data integration products provide. It is no longer acceptable to only have a limited palette of visual components, where users get stuck if something does not fit the paradigm.
 
-* [Getting Started](/docs/getting-started/): Get started with $project
-* [Examples](/docs/examples/): Check out some example code!
+Prophecy provides extensibility via templates - not as an afterthought - but as the concept at the heart of our architecture. Prophecy provides a set of inbuilt visual operators - such as Spark standard library, and Delta lake library. New visual operators are defined by our customers - usually the data platform teams develop standards for their organizations. This includes custom connectors, and transforms such as an encryption library. Customers also ask us to develop new operators as they need them and we're happy to add new libraries as requested.
+
+{{< figure src="/images/whyprophecy/extensible.png" width="75%" align="center">}}
+
+
+
+### Gems
+
+Prophecy enables you to construct data pipelines from standard visual blocks (like Lego pieces), that we call gems. The gems require the users to be able to write Spark code and our customers often rely on Prophecy to help out. Gems include Spark code, properties that are blanks to be filled by the user from UI, and a function to describe the visual layout of the gem.
+
+In the gem builder UI, the left half is where you write the template code for the gem. The top right has a functional UI generated in real time from the template code. You can fill business logic values into this generated UI, and you can immediately see the generated code at the bottom right. You can run this generated code against input data and see the results to ensure everything is working well.
+
+{{< figure src="/images/whyprophecy/gem-builder.png" width="75%" align="center">}}
+
+
 
