@@ -14,9 +14,11 @@ Prophecy is designed to enable all users to be productive with data engineering.
 Prophecy's low-code designer provides a visual drag-and-drop canvas to develop data pipelines, where business logic can be written as simple SQL expressions. We believe it is superior in every way to developing custom scripts:
 
 * **Many data users:** Our users don't need to be experts in Spark or Airflow, and this enables all the data users - data engineers, visual ETL developers, data scientists and data analysts to succeed.
-* **Productive development:** It is very quick to develop pipelines - you can drag and drop visual blocks into a pipeline and interactively run them to see the data after every step along the journey. Even coding data engineers are more productive with our product.
+* **Productive development:** It is very quick to develop pipelines - you can drag and drop visual blocks into a pipeline and interactively run them to see the data after every step along the journey. Even coding data engineers are more productive with our product. 
+  
+{{< figure src="/images/whyprophecy/datapipeline.png" width="75%" align="center">}}
 
-## Complete Product
+## Code & DevOps
 Running at scale requires bringing the best software engineering practices to the refinement of data. Rapid development & deployment of data pipeline can be achieved by code on git & high test coverage, coupled with continuous integration & continuous deployment. Prophecy does the following to make this process work:
 
 * **Visual data pipelines as code:** Prophecy low-code editor stores visual data pipelines as high-quality code on git

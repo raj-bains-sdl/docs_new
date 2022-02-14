@@ -6,6 +6,8 @@ description: >
   Prophecy versions with the features in each version
 ---
 
+{{<alert>}} Prophecy has an Enterprise Trial using the Prophecy Databricks environment for a 14-day trial {{</alert>}}
+
 Prophecy comes in two versions:
 
 {{< table caption="Versions" class="table-borderless">}}

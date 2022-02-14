@@ -17,7 +17,7 @@ $td-enable-google-fonts: true !default;
 
 // Theme colors
 
-$primary: #30638E !default;
+$primary: #686CE7 !default;
 $primary-light: lighten($primary, 75%) !default;
 $secondary: #FFA630 !default;
 $success: #3772FF !default;
@@ -27,19 +27,19 @@ $danger: #ED6A5A !default;
 $white: #fff !default;
 $light: #D3F3EE !default;
 
-$dark: #403F4C !default;
+$dark: rgba(#272838, 1) !default;
 $blue: #72A1E5 !default;
 $orange: #BA5A31 !default;
-$gray-100: #f8f9fa !default;
-$gray-200: #eee !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ccc !default;
-$gray-500: #adb5bd !default;
-$gray-600: #797676 !default;
-$gray-700: #495057 !default;
-$gray-800: #333 !default;
-$gray-900: #222 !default;
-$black: #000 !default;
+$gray-100: #FBFCFD !default;
+$gray-200: #F7FAFC !default;
+$gray-300: #ECF3F8 !default;
+$gray-400: #EDEEF3 !default;
+$gray-500: #D8DBE6 !default;
+$gray-600: #CACBDA !default;
+$gray-700: #9194B2 !default;
+$gray-800: rgba(#272838, 0.90)  !default;
+$gray-900: rgba(#272838, 0.95) !default;
+$black: #272838 !default;
 
 $code-color: darken($secondary, 20%) !default;
 
@@ -47,7 +47,8 @@ $code-color: darken($secondary, 20%) !default;
 
 $border-color: $gray-300 !default;
 $td-sidebar-tree-root-color: $primary !default;
-$td-sidebar-bg-color: rgba($primary, 0.03) !default;
+//$td-sidebar-bg-color: rgba($primary, 0.03) !default;
+$td-sidebar-bg-color: #F7FAFC !default
 $td-sidebar-border-color: $border-color !default;
 
 // Background colors for the sections on home page etc. It is a paint by number system, starting at 0, where the number is taken from the shortcode's ordinal
@@ -55,9 +56,9 @@ $td-sidebar-border-color: $border-color !default;
 // These colors are all part of the theme palette, but the mix is fairly random to create variation. This can be overridden by the project if needed.
 $td-box-colors: $dark, $primary, $secondary, $info, $primary-light, $gray-600, $success, $warning, $dark, $danger, $primary, $secondary, $primary-light, $info !default;
 
-$link-color: darken($blue, 15%) !default;
+$link-color: #686CE7 !default;
 $link-decoration: none !default;
-$link-hover-color: darken($link-color, 15%) !default;
+$link-hover-color: #494DDB !default;
 $link-hover-decoration: none !default;
 
 // Fonts
@@ -116,7 +117,7 @@ $td-block-space-bottom-base: 4 * $spacer !default;
 
 // Pagination
 
-$pagination-color: $gray-600 !default;
+$pagination-color: $gray-700 !default;
 $pagination-border-color: rgba($black, 0.1) !default;
 $pagination-active-border-color: darken($primary, 5%) !default;
 $pagination-disabled-color: $gray-300 !default;
