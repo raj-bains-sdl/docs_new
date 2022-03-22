@@ -1,7 +1,7 @@
 ---
 title: "Concepts"
 linkTitle: "Concepts"
-weight: 3
+weight: 4
 description: >
   Core entities in Prophecy - teams, projects, fabrics, ...
 ---

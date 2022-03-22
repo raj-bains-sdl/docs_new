@@ -1,7 +1,7 @@
 ---
 title: "Tutorials"
 linkTitle: "Tutorials"
-weight: 5
+weight: 6
 description: >
   Getting started, developing, moving to production, ...
 ---

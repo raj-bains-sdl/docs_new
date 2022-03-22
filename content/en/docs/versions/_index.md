@@ -1,6 +1,6 @@
 ---
-title: "Versions"
-linkTitle: "Versions"
+title: "Product Feature Matrix"
+linkTitle: "Product Feature Matrix"
 weight: 2
 description: >
   Prophecy versions with the features in each version
@@ -10,7 +10,7 @@ description: >
 
 Prophecy comes in two versions:
 
-{{< table caption="Versions" class="table-borderless">}}
+{{< table caption="Product Versions" class="table-borderless">}}
 |                        |  Option                                                    | Standard                      | Enterprise                     |
 |------------------------|------------------------------------------------------------|-------------------------------|--------------------------------|
 | Spark Support          |   Databricks                                               | <img src="/images/yes.png">   |  <img src="/images/yes.png">   |
